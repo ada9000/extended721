@@ -1,6 +1,6 @@
 from blockfrost import BlockFrostApi, ApiError, ApiUrls
 
-class BlockFrostTools:
+class Extended721:
     def __init__(self, testnet:bool=False, apiKey:str=None):
         self.b_url = ApiUrls.mainnet.value
         if testnet:
